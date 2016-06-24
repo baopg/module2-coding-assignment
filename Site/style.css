@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #98F5D9;
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+.row {
+	width: 99%;
+	border: 2px solid red;
+
+}
+
+h1 {
+	font-color: blue;
+	text-align: center;
+}
+
+div {
+	background-color: green;
+	border: 1px solid black;
+	margin: 15px 0.5% 15px 0.5%;
+}	
+
+h2 {
+	width: 20%;
+	border: 3px solid blue;
+	background-color: yellow;	
+	margin: 0 0 0 auto;
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.col1,.col2,.col3 {
+		float: left;
+
+	}
+	.col1 {
+		width: 32.33%;
+	}
+	.col2 {
+		width: 32.33%;
+	}
+	.col3 {
+		width: 32.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col1,.col2,.col3 {
+		float: left;
+		margin: 10px 0.5% 10px 0.5%;
+	}
+	.col1 {
+		width: 49%;
+	}
+	.col2 {
+		width: 49%;
+	}
+	.col3 {
+		width: 99%;
+	}
+}
+
+
+
+
