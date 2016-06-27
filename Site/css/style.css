@@ -1,9 +1,16 @@
-html{
+/*html{
 	height: 100%;
-}
+}*/
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
+/*.wapper {
+	width: 1404px;
+	margin: 0 auto;
+}*/
 
 body {
 	background-color: #DEF7FF;
@@ -25,7 +32,7 @@ h1 {
 }
 
 .title1 p {
-	color: grey;
+	color: black;
 	font-size: 20px;
 	margin-top: 0px;
 	margin-bottom: 5px;
@@ -51,12 +58,14 @@ h1 {
 }
 
 /* Title */
-.row h2 {
+.row div h2 {
 	width: 50%;	
 	margin: 0 0 0 auto;
 	text-align: center;
 	color: white;
 	border: 2px solid grey;
+	border-top: 0;
+	border-right: 0;
 }
 
 .row div:nth-child(1) h2{
@@ -70,7 +79,7 @@ h1 {
 .row div:nth-child(3) h2  {
 	background-color: #DB5800;
 }
-/* */
+/* Content*/
 .row {
 	width: 100%;
 }
@@ -78,10 +87,18 @@ h1 {
 .row>div>div{
 	background-color: #F5E8A8;
 	border: 2px solid #336458;
-	border-radius: 10px;
-	margin: 10px 10px;
-	padding: 5px 10px;	
+	border-radius: 5px;
+	margin: 30px 10px;	
 	box-shadow: 10px black;
+}
+
+.row div p {
+	padding: 5px 30px;
+}
+
+.row div ul{
+	padding: 5px 40px;
+	margin: 10px;
 }
 
 /*the desktop view (992px and above)*/
