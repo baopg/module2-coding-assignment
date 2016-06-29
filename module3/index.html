@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FOOD LLC</title>
+    <title>Bootstrap 101 Template</title>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styless.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
+          <a href="#" class="navbar-brand"><h1>Food, LLC</h1></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -23,21 +26,50 @@
         </div>
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li>Sushi</li>
-            <li>Beef</li>
-            <li>Chicken</li>   
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+            <li><a href="#title-sushi">Sushi</a></li><hr>
+            <li><a href="#title-beef">Beef</a></li><hr>
+            <li><a href="#title-chicken">Chicken</a></li>   
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
 
+  <div id="main-content" class="container">
+    <h2 id="title" class="text-center">Our Menu</h2>
+    <div class="container">
+      <div id="sec" class="row">
+        <section id="title-chicken" class="col-xs-12 col-sm-6 col-md-4">
+          <div>
+            <h3>Chicken</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a incidunt inventore aperiam! Quos pariatur minima, non sint quisquam consequatur deleniti impedit eaque iusto doloremque veniam maxime eveniet! Provident, nemo, dolorem. Obcaecati quis voluptate vel ratione ipsam ea. Aliquid sint adipisci suscipit eius est praesentium aspernatur velit laudantium dignissimos, laboriosam ipsa reiciendis nostrum tempore cumque assumenda veniam reprehenderit quasi expedita. Ratione amet expedita maiores fugiat, et quaerat! Asperiores, impedit. Corporis ea odit, amet delectus, praesentium optio, iure doloribus voluptates nihil eligendi a, dolor cumque modi expedita minima natus nostrum neque. Odio modi nobis necessitatibus, laudantium facere quos praesentium accusamus culpa voluptas. A autem dolorem officia. Illo numquam excepturi vel, ducimus dolorem nam blanditiis tenetur dignissimos atque asperiores. Assumenda, nostrum obcaecati sequi, ex dolore distinctio labore aut fugiat a at repellendus est laudantium minus ea! Quam animi cum deserunt harum, minima veritatis, beatae ratione dolor facilis recusandae pariatur eos cumque accusamus.  <a href="#header-nav">Back&nbsp;To&nbsp;Top</a></p>
+          </div>
+        </section>
+        <section id="title-sushi" class="col-xs-12 col-sm-6 col-md-4">
+          <div>
+            <h3>Sushi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia consequuntur beatae, quae hic quisquam aut quo sit delectus voluptas magnam voluptatem dicta itaque laborum ea eaque pariatur ullam velit ducimus iusto! Dolore at nam quisquam praesentium ipsam, magni repudiandae commodi fugiat esse laudantium, iusto excepturi quas. Ipsam magni saepe quae deserunt officia sint ipsa delectus ab eaque officiis suscipit fugiat harum laudantium neque consequatur, rerum, dignissimos tenetur, amet perspiciatis, aspernatur voluptas ut excepturi. Voluptatem, quod temporibus reprehenderit quam cumque? Ex quasi nostrum aspernatur odit! Tempore aspernatur exercitationem, ratione quae doloremque vero excepturi, at, quos consectetur distinctio voluptas voluptatem harum nulla.  <a href="#header-nav">Back&nbsp;To&nbsp;Top</a></p></p>
+          </div>
+        </section>
+        <section id="title-beef" class="col-xs-12 col-sm-12 col-md-4">
+          <div>
+            <h3>Beef</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis reprehenderit, autem sed odit voluptatem expedita, saepe porro quis minus animi unde adipisci accusantium temporibus soluta? Voluptates dolor soluta, nihil reprehenderit assumenda quas cum molestias molestiae, laudantium minima quis rerum corporis inventore vitae doloribus fuga similique quia sint voluptas. Blanditiis atque distinctio recusandae dicta iste sed sapiente vero dolore deleniti, soluta fugit deserunt laborum nostrum ullam. Ipsum sapiente quisquam possimus aliquam non harum itaque quasi tempore laborum qui aut ea expedita quia incidunt iure placeat unde fuga minus eos iusto quam, perspiciatis illum accusantium dolores? Ipsam pariatur veniam natus, facere assumenda!  <a href="#header-nav">Back&nbsp;To&nbsp;Top</a></p></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div><!-- End of #main-content -->
   
-
+  <footer id="footer-3" class="panel-footer">
+    <div class="container">
+      Coppyright &copy PhanGiaBao.
+    </div>
+  </footer>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
