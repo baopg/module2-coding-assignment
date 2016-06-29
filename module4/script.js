@@ -58,8 +58,8 @@ for (var i in names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (names[i].charAt(0).toLowerCase() == "j") {
-    helloSpeaker.speak(names[i]);
-  } else {
     byeSpeaker.speak(names[i]);
+  } else {
+    helloSpeaker.speak(names[i]);
   }
 }
