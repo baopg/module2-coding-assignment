@@ -60,6 +60,6 @@ for (var i in names) {
   if (names[i].charAt(0).toLowerCase == "j") {
     helloSpeaker.speak(names[i]);
   } else {
-    byeSpeaker.speak(names[name]);
+    byeSpeaker.speak(names[i]);
   }
 }
