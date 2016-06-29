@@ -5,6 +5,8 @@ body {
 }
 #header-nav {
 	background-color: #CBEFF8;
+	border-radius: 0;
+  border: 0;
 }
 
 .navbar-brand h1 {
@@ -44,4 +46,6 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
-	
+	.navbar-brand {
+  padding-top: 25px;
+}
