@@ -41,7 +41,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (name in names) {
+for (var i in names) {
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
@@ -57,9 +57,10 @@ for (name in names) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (names[name].charAt(0) == "j" || names[name].charAt(0) == "J") {
-    helloSpeaker.speak(names[name]);
+  if (names[i].charAt(0).toLowerCase() == "j") {
+    helloSpeaker.speak(names[i]);
   } else {
-    byeSpeaker.speak(names[name]);
+    byeSpeaker.speak(names[i]);
   }
+
 }
